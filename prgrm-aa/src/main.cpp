@@ -7,7 +7,7 @@
 extern "C" {
 #endif
 
-void onemain();
+// void onemain();
 
 #ifdef __cplusplus
 }
@@ -382,7 +382,7 @@ void strall() {
  *
  */
 
-NAMED(_onemain, "main");
+// NAMED(_onemain, "main");
 // void onemain();
 
 /* strobe the wired LEDs */
@@ -414,7 +414,7 @@ const entry dictionary[] = {{_nop, nop},         {_nvic_reset, nvic_reset_},
                             {_in, in},           {_input, input},
                             {_output, output},   {_input_pullup, input_pullup},
                             {_wiggle, wiggle},   {_dow, dow},
-                            {_dumpr, rdumps},    {_onemain, onemain},
+                            {_dumpr, rdumps}, //    {_onemain, onemain},
                             {_speed, speed}};
 
 /* Number of words in the dictionary */
