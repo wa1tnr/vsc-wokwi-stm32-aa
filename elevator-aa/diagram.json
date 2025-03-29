@@ -50,10 +50,16 @@
   "connections": [
     [ "$serialMonitor:TX", "nucleo:VCP_RX", "", [] ],
     [ "$serialMonitor:RX", "nucleo:VCP_TX", "", [] ],
-    [ "nucleo:A1", "btn1:2.l", "sienna", [ "v-26.25", "h70.31", "v143.8" ] ],
-    [ "nucleo:A2", "btn2:2.l", "#cc1111", [ "v-35.85", "h89.51", "v115.2" ] ],
-    [ "nucleo:A3", "btn3:2.l", "orange", [ "v-45.45", "h108.71", "v9.6" ] ],
-    [ "nucleo:A4", "btn4:2.l", "gold", [ "v-55.05", "h127.91", "v9.6" ] ]
+    [ "nucleo:A1", "btn1:1.l", "sienna", [ "v-26.25", "h70.31", "v143.8" ] ],
+    [ "nucleo:A2", "btn2:1.l", "#cc1111", [ "v-35.85", "h89.51", "v115.2" ] ],
+    [ "nucleo:A3", "btn3:1.l", "orange", [ "v-45.45", "h108.71", "v9.6" ] ],
+    [ "nucleo:A4", "btn4:1.l", "gold", [ "v-55.05", "h127.91", "v9.6" ] ],
+    [ "nucleo:A5", "btn5:1.l", "green", [ "v-64.65", "h137.51", "v-19.2" ] ],
+    [ "nucleo:GND.1", "btn1:2.r", "black", [ "v88.35", "h329.51", "v-19.2" ] ],
+    [ "btn1:2.r", "btn2:2.r", "black", [ "h19.4", "v-47.8" ] ],
+    [ "btn2:2.r", "btn3:2.r", "black", [ "h19.4", "v-47.8" ] ],
+    [ "btn3:2.r", "btn4:2.r", "black", [ "h19.4", "v-47.8" ] ],
+    [ "btn4:2.r", "btn5:2.r", "black", [ "h19.4", "v-47.8", "h-19.2" ] ]
   ],
   "dependencies": {}
 }
