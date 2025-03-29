@@ -124,6 +124,20 @@
       "left": 9.05,
       "rotate": 90,
       "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text1",
+      "top": 144,
+      "left": 211.2,
+      "attrs": { "text": "call panel\ninside car" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text2",
+      "top": 326.4,
+      "left": -9.6,
+      "attrs": { "text": "LEDs over\nelevator door\nin lobby" }
     }
   ],
   "connections": [
@@ -150,7 +164,7 @@
     [ "led2:A", "r2:1", "#cc1111", [ "v-40", "h-157.2" ] ],
     [ "nucleo:D3", "r3:2", "orange", [ "h-48", "v-94.8" ] ],
     [ "led3:A", "r3:1", "orange", [ "v-49.6", "h-186.8" ] ],
-    [ "nucleo:D4", "r4:2", "gold", [ "h-76.8", "v57.6", "h-163.2" ] ],
+    [ "nucleo:D4", "r4:2", "gold", [ "h-57.6", "v-37.2" ] ],
     [ "led4:A", "r4:1", "gold", [ "v-59.2", "h-216.4" ] ],
     [ "nucleo:D5", "r5:2", "green", [ "h-67.2", "v-114" ] ],
     [ "led5:A", "r5:1", "green", [ "v-68.8", "h-246" ] ],
