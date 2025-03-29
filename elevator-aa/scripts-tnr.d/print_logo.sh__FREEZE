@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cat << _EOF__
+    
+  some logo here - 29 March 2025
+
+  stm32duino on wokwi project
+
+_EOF__
+
+exit 0
+# end

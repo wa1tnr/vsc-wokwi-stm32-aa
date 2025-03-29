@@ -1,0 +1,12 @@
+Thu 23 Jan 18:18:30 UTC 2025
+
+make copies with proper names.
+
+# print_logo.sh
+
+cp show2K1Odyssey.txt__FREEZE     show2K1Odyssey.txt
+cp showAardvark-a.txt__FREEZE     showAardvark-a.txt
+cp showFancyChicken.txt__FREEZE   showFancyChicken.txt
+cp showLightBulb.txt__FREEZE      showLightBulb.txt
+
+end.
