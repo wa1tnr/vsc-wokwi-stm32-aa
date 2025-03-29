@@ -1,0 +1,14 @@
+Sat 29 Mar 11:31:52 UTC 2025
+
+make/pio $ git status
+On branch dvlp-aa
+Your branch is up to date with 'origin/dvlp-aa'.
+
+Program functions correctly when a new instance of it
+is created on wokwi, using only github stored source
+material.  aka works fine as committed (with obvious
+caveats easily observed due to 'approximation' of
+program behavior - such as blocking LED demo that
+begins the program).
+
+end.
