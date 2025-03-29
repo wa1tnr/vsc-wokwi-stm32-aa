@@ -24,13 +24,36 @@
       "top": 217.4,
       "left": 345.6,
       "attrs": { "color": "#cc1111", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": 169.4,
+      "left": 345.6,
+      "attrs": { "color": "orange", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn4",
+      "top": 121.4,
+      "left": 345.6,
+      "attrs": { "color": "gold", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn5",
+      "top": 73.4,
+      "left": 345.6,
+      "attrs": { "color": "green", "xray": "1" }
     }
   ],
   "connections": [
     [ "$serialMonitor:TX", "nucleo:VCP_RX", "", [] ],
     [ "$serialMonitor:RX", "nucleo:VCP_TX", "", [] ],
     [ "nucleo:A1", "btn1:2.l", "sienna", [ "v-26.25", "h70.31", "v143.8" ] ],
-    [ "nucleo:A2", "btn2:2.l", "#cc1111", [ "v-35.85", "h89.51", "v115.2" ] ]
+    [ "nucleo:A2", "btn2:2.l", "#cc1111", [ "v-35.85", "h89.51", "v115.2" ] ],
+    [ "nucleo:A3", "btn3:2.l", "orange", [ "v-45.45", "h108.71", "v9.6" ] ],
+    [ "nucleo:A4", "btn4:2.l", "gold", [ "v-55.05", "h127.91", "v9.6" ] ]
   ],
   "dependencies": {}
 }
