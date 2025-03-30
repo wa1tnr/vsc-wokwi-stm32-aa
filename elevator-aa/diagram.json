@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "Anonymous maker",
+  "author": "xxx Sun 30 Mar 15:04:11 UTC 2025 xxx",
   "editor": "wokwi",
   "parts": [
     {
@@ -93,15 +93,15 @@
       "rotate": 90,
       "attrs": { "color": "blue", "flip": "" }
     },
-    { "type": "wokwi-led", "id": "led7", "top": 409.2, "left": 23, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led8", "top": 409.2, "left": 42.2, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led7", "top": 82.8, "left": -63.4, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led8", "top": 92.4, "left": -53.8, "attrs": { "color": "red" } },
     {
       "type": "wokwi-led",
       "id": "led9",
       "top": 181.2,
       "left": -11.8,
       "rotate": 90,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "white" }
     },
     {
       "type": "wokwi-led",
@@ -109,7 +109,7 @@
       "top": 200.4,
       "left": -11.8,
       "rotate": 90,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "black" }
     },
     {
       "type": "wokwi-led",
@@ -117,7 +117,7 @@
       "top": 219.6,
       "left": -11.8,
       "rotate": 90,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "sienna" }
     },
     {
       "type": "wokwi-led",
@@ -125,7 +125,7 @@
       "top": 238.8,
       "left": -11.8,
       "rotate": 90,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "#cc1111" }
     },
     {
       "type": "wokwi-resistor",
@@ -177,15 +177,15 @@
     {
       "type": "wokwi-resistor",
       "id": "r7",
-      "top": 378.35,
-      "left": 19.2,
+      "top": 99.95,
+      "left": -38.4,
       "attrs": { "value": "1000" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r8",
-      "top": 397.55,
-      "left": 19.2,
+      "top": 109.55,
+      "left": -38.4,
       "attrs": { "value": "1000" }
     },
     {
@@ -226,9 +226,17 @@
     {
       "type": "wokwi-text",
       "id": "text2",
-      "top": 384,
-      "left": -134.4,
-      "attrs": { "text": "LEDs over\nelevator door\nin lobby" }
+      "top": 163.2,
+      "left": 307.2,
+      "attrs": { "text": "<---- LEDs over elevator door" }
+    },
+    { "type": "wokwi-text", "id": "text3", "top": 330, "left": 52, "attrs": { "text": "n/c x2" } },
+    {
+      "type": "wokwi-text",
+      "id": "text4",
+      "top": 134.4,
+      "left": -115.2,
+      "attrs": { "text": "unused parts" }
     }
   ],
   "connections": [
@@ -259,16 +267,16 @@
     [ "led4:A", "r4:1", "gold", [ "v-59.2", "h-216.4" ] ],
     [ "nucleo:D5", "r5:2", "green", [ "h-67.2", "v-114" ] ],
     [ "led5:A", "r5:1", "green", [ "v-68.8", "h-246" ] ],
-    [ "nucleo:D6", "r6:1", "blue", [ "h-336", "v-134.4" ] ],
+    [ "nucleo:D6", "r6:1", "blue", [ "h-211.2", "v-134.4" ] ],
     [ "led6:A", "r6:2", "red", [ "v0" ] ],
-    [ "nucleo:D9", "r9:1", "cyan", [ "h-316.8", "v-143.2" ] ],
-    [ "led9:A", "r9:2", "red", [ "v0" ] ],
-    [ "nucleo:D10", "r10:1", "cyan", [ "h-307.2", "v-132.8" ] ],
-    [ "led10:A", "r10:2", "red", [ "v0" ] ],
-    [ "nucleo:D11", "r11:1", "cyan", [ "h-297.6", "v-122.4" ] ],
-    [ "led11:A", "r11:2", "red", [ "v0" ] ],
-    [ "nucleo:D12", "r12:1", "cyan", [ "h-288", "v-134.4" ] ],
-    [ "led12:A", "r12:2", "red", [ "v0" ] ],
+    [ "nucleo:D9", "r9:1", "white", [ "h-220.8", "v-143.2" ] ],
+    [ "led9:A", "r9:2", "white", [ "v0" ] ],
+    [ "nucleo:D10", "r10:1", "grey", [ "h-230.4", "v-132.8" ] ],
+    [ "led10:A", "r10:2", "grey", [ "v0" ] ],
+    [ "nucleo:D11", "r11:1", "sienna", [ "h-240", "v-122.4" ] ],
+    [ "led11:A", "r11:2", "sienna", [ "v0" ] ],
+    [ "nucleo:D12", "r12:1", "#cc1111", [ "h-249.6", "v-112" ] ],
+    [ "led12:A", "r12:2", "#cc1111", [ "v0" ] ],
     [ "led1:C", "led2:C", "black", [ "v-20.8", "h18.8" ] ],
     [ "led2:C", "led3:C", "black", [ "v-20.8", "h18" ] ],
     [ "led3:C", "led4:C", "black", [ "v-20.8", "h17.2" ] ],
