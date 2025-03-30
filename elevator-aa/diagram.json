@@ -86,6 +86,30 @@
       "attrs": { "color": "green", "flip": "1" }
     },
     {
+      "type": "wokwi-led",
+      "id": "led6",
+      "top": 155.2,
+      "left": -5.8,
+      "rotate": 180,
+      "attrs": { "color": "blue", "flip": "1" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led7",
+      "top": 155.2,
+      "left": -23.4,
+      "rotate": 180,
+      "attrs": { "color": "darkviolet", "flip": "1" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led8",
+      "top": 155.2,
+      "left": -42.6,
+      "rotate": 180,
+      "attrs": { "color": "grey", "flip": "1" }
+    },
+    {
       "type": "wokwi-resistor",
       "id": "r1",
       "top": 187.2,
@@ -126,6 +150,30 @@
       "attrs": { "value": "1000" }
     },
     {
+      "type": "wokwi-resistor",
+      "id": "r6",
+      "top": 168,
+      "left": -103,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r7",
+      "top": 168,
+      "left": -89,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r8",
+      "top": 168,
+      "left": -75,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
       "type": "wokwi-text",
       "id": "text1",
       "top": 144,
@@ -135,8 +183,8 @@
     {
       "type": "wokwi-text",
       "id": "text2",
-      "top": 326.4,
-      "left": -9.6,
+      "top": 384,
+      "left": -134.4,
       "attrs": { "text": "LEDs over\nelevator door\nin lobby" }
     }
   ],
@@ -172,7 +220,16 @@
     [ "led2:C", "led3:C", "black", [ "v-20.8", "h18" ] ],
     [ "led3:C", "led4:C", "black", [ "v-20.8", "h17.2" ] ],
     [ "led4:C", "led5:C", "black", [ "v-20.8", "h16.4" ] ],
-    [ "led5:C", "btn5:2.r", "black", [ "v-20.8", "h109.6", "v86.2" ] ]
+    [ "led5:C", "led6:C", "black", [ "v-20.8", "h16.4" ] ],
+    [ "led6:C", "led7:C", "black", [ "v-19.2", "h-19.2" ] ],
+    [ "led7:C", "led8:C", "black", [ "v-19.2", "h-19.2" ] ],
+    [ "led5:C", "btn5:2.r", "black", [ "v-20.8", "h109.6", "v86.2" ] ],
+    [ "nucleo:D6", "r6:2", "blue", [ "h-86.4", "v-38.4", "h-92.85" ] ],
+    [ "led6:A", "r6:1", "blue", [ "h1", "v-48", "h-145" ] ],
+    [ "nucleo:D7", "r7:2", "darkviolet", [ "h-96", "v-67.2", "h-69.25" ] ],
+    [ "led7:A", "r7:1", "darkviolet", [ "v-38.4", "h-96" ] ],
+    [ "nucleo:D8", "r8:2", "white", [ "h-115.2", "v-96", "h-36.05" ] ],
+    [ "led8:A", "r8:1", "white", [ "v-28.8", "h-48" ] ]
   ],
   "dependencies": {}
 }
